@@ -2,7 +2,9 @@
     var bP={};
     var b=30, bb=150, height=600, buffMargin=1, minHeight=14;
     var c1=[-130, 40], c2=[-50, 100], c3=[-10, 140]; //Column positions of labels.
-    var colors =["#3366CC", "#DC3912",  "#FF9900","#109618", "#990099", "#0099C6"];
+    var colors = new Array(50).join(' ').split('').map(function(){
+        return (function(m,s,c){return (c ? arguments.callee(m,s,c-1) : '#') + s[m.floor(m.random() * s.length)]})(Math,'0123456789ABCDEF',5);
+    });
 
     bP.partData = function(data,p){
         var sData={};
