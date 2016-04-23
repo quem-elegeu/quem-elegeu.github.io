@@ -1,5 +1,15 @@
 var data = [
   [
+    "PP - ESPERIDIAO AMIN",
+    "PP",
+    0
+  ],
+  [
+    "PSD - JOAO RODRIGUES",
+    "PSD",
+    0
+  ],
+  [
     "PMDB - MAURO MARIANI",
     "PSD",
     2596
