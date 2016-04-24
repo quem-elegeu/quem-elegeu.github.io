@@ -41,7 +41,7 @@ var state = 'SC';
 var base = 'https://raw.githubusercontent.com/danieljoppi/jus-stats/master/data-json/';
 function getResume(state) {
     state = state.trim().toUpperCase();
-    var url = base + state + '/resume_' + state + '.json';
+    var url = base + state + '/resume_' + state + '.json?t=2016-04-24-03-18';
     $.get(url, function (body) {
         var resume = 'string' === typeof body ? JSON.parse(body) : body;
         var data = [{
