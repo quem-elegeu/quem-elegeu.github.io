@@ -1,0 +1,9 @@
+svg text{
+    font-size: 12px;
+}
+rect{
+    shape-rendering: crispEdges;
+}
+a {
+    cursor: pointer
+}
