@@ -50,7 +50,7 @@ var menu = $states.reduce((function(a, b) {
 $('#states-list').append(menu);
 
 var state = 'SC';
-var base = 'https://raw.githubusercontent.com/danieljoppi/jus-stats/master/data-json/';
+var base = 'https://rawgit.com/danieljoppi/jus-stats/master/data-json/';
 function getResume(state) {
     state = state.trim().toUpperCase();
     var url = base + state + '/resume_' + state + '.json?t=2016-04-24-03-18';
